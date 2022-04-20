@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "name": "Final Fantasy VIIR: Beneath a Stolen Sky",
+      "key": "pm_ff7bass",
+      "sort_as": [
+        "covers"
+      ]
+    },
+    {
+      "name": "Angel's Burning: Blue Savior",
+      "key": "abbs",
+      "sort_as": [
+        "singles",
+        "covers"
+      ]
+    },
+    {
+      "name": "Project Kingdom XIII",
+      "key": "pkxiii",
+      "sort_as": [
+        "albums",
+        "covers"
+      ]
+    },
+    {
+      "name": "Final Fantasy IX: Beyond the Mist",
+      "key": "pm_ff9btm",
+      "sort_as": [
+        "covers"
+      ]
+    },
+    {
+      "name": "Party-Zon: Yang Strand",
+      "key": "pz_yan",
+      "sort_as": [
+        "singles"
+      ]
+    },
+    {
+      "name": "Party-Zon: Yin Strand",
+      "key": "pz_yin",
+      "sort_as": [
+        "singles"
+      ]
+    }
+  ]
+}
