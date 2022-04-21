@@ -1,0 +1,5 @@
+{{#each records}}
+<a href="javascript:void(0)" onclick="mixLink('{{key}}')"  class="mix {{#each sort_as}}{{this}}{{#unless @last}} {{/unless}}{{/each}}">
+<img class="miximg" src="/public/js/music_db/albums/{{key}}/front.jpg" loading="lazy" width="300" height="300" alt="{{name}}"/>
+</a>
+{{/each}}
