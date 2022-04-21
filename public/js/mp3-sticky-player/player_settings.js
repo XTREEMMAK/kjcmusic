@@ -80,7 +80,7 @@ FWDMSPUtils.onReady(function(){
             showMainBackground:"yes",
             verticalPosition:"bottom",
             horizontalPosition:"center",
-            useDeepLinking:"yes",
+            useDeepLinking:"no",
             useYoutube:"yes",
             useVideo:"yes",
             useVectorIcons:'no',

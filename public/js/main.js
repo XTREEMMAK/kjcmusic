@@ -64,7 +64,7 @@ if(history.pushState) {
 }
 */
 function mixLink(key) {
-    getRecordInfo ('./music_db/templates/info.hbs',key)
+    getRecordInfo ('/public/js/music_db/templates/info.hbs',key)
 }
 
 function recal_scroll(){
@@ -96,7 +96,7 @@ copyright.innerHTML = copytxt;
 }
 
 window.onload = function(){    
-    getRecordsList('./music_db/templates/home.hbs','./music_db/kjmdb.json','mix-container');
+    getRecordsList('/public/js/music_db/templates/home.hbs','/public/js/music_db/kjmdb.json','mix-container');
     get_copyright(YEAR);
 };
 
