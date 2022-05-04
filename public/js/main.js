@@ -19,6 +19,27 @@ modal.addFooterBtn('Close', 'tingle-btn tingle-btn--primary', function() {
     modal.close();
 });
 
+var modal2 = new tingle.modal({
+    footer: true,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['album_win'],
+    beforeClose: function() {
+        var scroller = document.querySelector(".tingle-modal--overflow");
+        scroller.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+        this.setContent('')
+    return true
+    }
+});
+modal2.addFooterBtn('Close', 'tingle-btn tingle-btn--primary', function() {
+    // here goes some logic
+    modal2.close();
+});
+
 //Waypoints.js
 /*
  new Waypoint({
@@ -83,7 +104,7 @@ function get_contact(){
 
 function get_support(){
         modal.setContent(
-            ``
+            `HELLO WORLD`
             );
         modal.open();
 }

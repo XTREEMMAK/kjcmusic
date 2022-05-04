@@ -158,7 +158,7 @@ FWDMSPUtils.onReady(function(){
             mainButtonTextNormalColor:"#888888",
             mainButtonTextSelectedColor:"#FFFFFF",
             //playlist settings
-            playTrackAfterPlaylistLoad:"yes",
+            playTrackAfterPlaylistLoad:"no",
             showPlayListButtonAndPlaylist:"yes",
             showPlayListOnMobile:"yes",
             showPlayListByDefault:"no",

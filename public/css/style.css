@@ -77,8 +77,8 @@ html {
 
 .page-2 {
     display: none;
-    margin-top: 60px;
-    min-height: 110vh;
+    margin-top: 30px;
+    min-height: 100vh;
 }
 
 .hero_wrapper {
@@ -269,9 +269,14 @@ a.mix:hover {
     color: #000000;
 }
 
+.kj_mods .tingle-modal-box__content {
+    padding: 0px;
+    margin-bottom: -10px;
+}
+
 .ri_title h2 {
     color: #000000;
-    font-size: 4em;
+    font-size: 4.03vw;
 }
 
 .record_wrapper {
@@ -282,18 +287,22 @@ a.mix:hover {
 
 .ri_main_details {
     padding: 15px5px 15px 15px;
-    width: 60%;
     height: 100%;
     color: #131313;
     background-color: #ebe9ea;
     margin-top: 10px;
+    display: block;
+    flex-wrap: wrap;
+    width: 64%;
+    position: relative;
     float: left;
 }
 
 .ri_cover {
-    width: 40%;
+    width: 36%;
     padding: 9px;
     background-color: #ffffff;
+    display: block;
     position: relative;
     float: left;
 }
@@ -312,6 +321,7 @@ a.mix:hover {
 .ri_artist {
     padding-left: 9px;
     padding-right: 9px;
+    margin-top: -35px;
 }
 
 .ri_addcredits {
@@ -322,6 +332,7 @@ a.mix:hover {
 .ri_release {
     padding-left: 9px;
     padding-right: 9px;
+    font-size: 2.73vw !important;
 }
 
 .ri_platforms {
@@ -332,6 +343,8 @@ a.mix:hover {
 .ri_extended_details {
     padding-left: 9px;
     padding-right: 10px;
+    position: relative;
+    float: left;
 }
 
 .r_logo_box {
@@ -586,7 +599,110 @@ a.mix:hover {
     transition: 0.3s;
 }
 
+iframe#About_Page {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 2042px;
+}
 
+.tingle-modal__close {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.kj_mods .tingle-modal-box__footer {
+    display: none;
+}
+
+.tingle-btn {
+    padding: 20px !important;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .tingle-modal-box {
+        width: 91% !important;
+    }
+}
+
+@media (max-width:539px) {
+    .kj_mods .tingle-modal-box {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .tingle-modal-box__footer {
+        display: block;
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+        margin-top: -15px !important;
+        margin-bottom: -15px;
+    }
+
+    .kj_mods .tingle-modal__close {
+        display: none !important;
+    }
+
+    .kj_mods .tingle-modal__closeLabel {
+        display: none !important;
+    }
+
+    .kj_mods .tingle-btn {
+        margin: 0 !important;
+    }
+
+    .kj_mods .tingle-modal-box__content {
+        overflow-y: hidden !important;
+    }
+}
+
+.album_win .tingle-modal-box__content {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.album_win .tingle-modal-box {
+    width: 94%;
+}
+
+.album_win .tingle-modal__close {
+    color: #000000;
+    margin-top: 30px;
+}
+
+.ri_description p {
+    font-size: 20px !important;
+}
+
+.ri_artist h3 {
+    font-size: 2.966vw;
+}
+
+.ri_extended_details iframe {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 500px;
+}
+
+.ri_platforms svg {
+    font-size: 42px;
+    color: #232222;
+    transition: 0.3s;
+}
+
+.ri_platforms svg:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    transform: rotate(-17deg);
+}
 
 
 

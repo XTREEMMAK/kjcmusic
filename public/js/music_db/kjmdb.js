@@ -75,7 +75,6 @@ function setRecordsList (listJSON,recordTemplate,mixContainer){
     Request.send();
 }
 
-
 function setRecordsInfo (key,recordTemplate) {
     
     var Request = new XMLHttpRequest();
@@ -89,11 +88,13 @@ function setRecordsInfo (key,recordTemplate) {
         var compiledTemplate = Handlebars.compile(recordTemplate);
         var ourGeneratedHTML = compiledTemplate(inventory);
         //var musicLibraryContainer = document.getElementById(mixContainer);
-        modal.setContent(
-            '<div class="record_wrapper">'+
+        modal2.setContent(
+            '<div id="rc_contain" class="record_wrapper">'+
             '<div class="ri_cover"><img src="'+ALBUMS_HOME+key+'/front.jpg" loading="lazy"/></div>'+ourGeneratedHTML+
             '</div>');
-        modal.open();
+        modal2.open();
+        
+        
         //musicLibraryContainer.innerHTML = ourGeneratedHTML;
         }
         else

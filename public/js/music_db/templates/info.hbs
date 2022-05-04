@@ -1,11 +1,19 @@
  <div class="ri_main_details">
                     <div class="ri_title"><h2>{{name}}</h2></div>
                     <div class="ri_artist"><h3>{{artist}}</h3></div>
-                    <div class="ri_addcredits">{{additional_credits}}</div>
+                    <div class="ri_addcredits"><h4>{{additional_credits}}</h4></div>
                     <div class="ri_release">{{release}}</div>
-                    <div class="ri_platforms"></div>
+                    <div class="ri_platforms">
+                    {{#each platforms}}
+                        {{#if youtube}}<a href="{{youtube}}" target="_blank"><i class="fab fa-youtube"></i></a>{{/if}}
+                        {{#if spotify}}<a href="{{spotify}}" target="_blank"><i class="fab fa-spotify"></i></a>{{/if}}
+                        {{#if bandcamp}}<a href="{{bandcamp}}" target="_blank"><i class="fab fa-bandcamp"></i></a>{{/if}}
+                        {{#if applemusic}}<a href="{{applemusic}}" target="_blank"><i class="fab fa-apple"></i></a>{{/if}}
+                        {{#if amazonmusic}}<a href="{{amazonmusic}}" target="_blank"><i class="fab fa-amazon"></i></a>{{/if}}
+                    {{/each}}
+                    </div>
+                    </div>
                     <div class="ri_extended_details">
                         <div class="ri_description">{{{description}}}</div>
-                    </div>
                     </div>
                     

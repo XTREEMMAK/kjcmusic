@@ -96,14 +96,7 @@
                         <div class="r_logo_box">
                             <a href="https://music.youtube.com/channel/UCsWj-kpSHEedeSdhw8mo7BA" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/youtubemusic.jpg" alt="YouTube Music"/></a> 
                         </div>                         
-                    </div>                     
-                    <!-- 
-                    <div class="spotify_player">
-                        <div class="res_spotify_play">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0nQ2DYqWTQDu0aMOAbFqqf?utm_source=generator" width="100%" height="500px" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                    </div>
-                    -->                     
+                    </div>                                          
                 </div>                 
             </div>             
             <div id="Music" class="music_wrapper" data-pg-ia-scene='{"dir":"v","dbg":"true","s":"custom","d":"105%","s_t":"start","s_o":"-349px","l":[{"name":"MNav","a":{"l":[{"t":"$.nav_a","l":[{"t":"tween","p":0.56,"d":0.3,"l":{"class.remove":"nav_a_clicked"}}]},{"t":"$.music_nav","l":[{"t":"tween","p":0.71,"d":0.5,"l":{"class.add":"nav_a_clicked"}}]}]},"p":"time","rev":"true","rep":"true"}],"s_s":"center"}'> 
@@ -119,8 +112,7 @@
                             <button type="button" class="btn btn-light" data-filter=".singles">Singles & EPs</button>                             
                             <button type="button" class="btn btn-light" data-filter=".covers">Covers</button>                             
                         </div>                         
-                        <div id="mix-container" class="mix-container" style="display: flex; width: 100%; flex-wrap: wrap; justify-content: center;"> 
-</div>                         
+                        <div id="mix-container" class="mix-container" style="display: flex; width: 100%; flex-wrap: wrap; justify-content: center;"></div>                         
                     </div>                     
                 </div>                 
                 <!-- 
@@ -148,8 +140,8 @@
             </div>             
         </div>         
         <div id="Page-2" class="page-2"> 
-            about me
-</div>         
+            <iframe id="About_Page" src="http://kjo.test/about-me.html" frameborder="0" loading="lazy" height="100%" width="100%"></iframe>
+        </div>         
         <div id="Footer" class="footer_wrapper" data-pg-ia-scene='{"dir":"a","dbg":"true","s":"custom","s_t":"start","s_s":"end","e_t":"end","l":[{"t":".ft_content","a":"fadeInUp","p":"time","s":"45","rev":"true","rep":"true"}],"e_s":"end"}'> 
             <div class="ft_background-wrapper"> 
                 <div class="ft_background-video" data-autoplay="true" data-loop="true" style="overflow: hidden;"> 
