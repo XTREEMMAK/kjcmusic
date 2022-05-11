@@ -1,5 +1,6 @@
 const HOME = '/public/js/music_db/'
 const ALBUMS_HOME = HOME+'albums/';
+
 function getRecordsList (templateFile, recordsJSONFile,sortContainerID){
     setTemplate (templateFile,true)
     .then((template) => {

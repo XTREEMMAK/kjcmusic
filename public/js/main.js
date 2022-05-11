@@ -223,8 +223,9 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 
+  //GENERATE THE ALBUM LIST
   getRecordsList('/public/js/music_db/templates/home.hbs','/public/js/music_db/kjmdb.json','mix-container');
-    get_copyright(YEAR);
+  get_copyright(YEAR);
 };
            
 
