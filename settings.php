@@ -13,7 +13,7 @@ $baseURL='';
 
 //Environment Switcher
 //0 = CDN | 1 = LOCAL 
-$i = 1;
+$i = 0;
 
 switch ($i) {
     case 0:
