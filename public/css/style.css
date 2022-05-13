@@ -352,6 +352,7 @@ a.mix:hover {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .ri_main_details {
@@ -744,7 +745,8 @@ iframe#About_Page {
     margin-top: 30px;
 }
 
-.ri_description p {
+.ri_description p,
+.ri_involvement p {
     font-size: 20px !important;
 }
 
@@ -753,7 +755,7 @@ iframe#About_Page {
 }
 
 .ri_extended_details iframe {
-    width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1175,11 +1177,111 @@ iframe#About_Page {
     color: white!important;
 }
 
+#credits_table.grid-container {
+    display: grid;
+    font-size: 0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 17px;
+    grid-auto-rows: minmax(30px,auto);
+    background-color: #f5f5f5;
+    border: 8px solid #5a5a5a;
+    border-radius: 0px;
+    padding: 6px;
+}
 
+#credits_table.grid-container .grid-item {
+    min-height: 28px;
+    line-height: 24px;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding-left: 8px;
+    overflow: auto;
+}
 
+.grid-row-wrapper {
+    display: contents;
+}
 
+.grid-row-wrapper > div:hover {
+    background-color: #fff7f7;
+}
 
+.ri_release h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+}
 
+#mplayer_info_box_wrapper {
+    background: linear-gradient(90deg, #485563, #29323c);
+    position: fixed;
+    font-size: 0.6em;
+    text-align: center;
+    border: 4px solid rgba(147, 147, 147, 0.68);
+    border-radius: 31px;
+    width: 12.2rem;
+    margin-right: 25px;
+    margin-left: 25px;
+    z-index: 100000;
+    display: inline-block;
+    top: 69vh;
+    right: -50VW;
+    left: -;
+}
+
+#mplayer_info_box_wrapper::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0px;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-top: 34px solid #333d48;
+    left: 233px;
+}
+
+#mpib_content {
+    padding: 15px;
+}
+
+#blackout {
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(11, 10, 10, 0.96);
+    z-index: 1000;
+    top: 0px;
+    right: 0px;
+    bottom: 0vh;
+    left: 0px;
+}
+
+@media (max-width:639px) {
+    #mplayer_info_box_wrapper:after {
+        left: 137px;
+    }
+
+    #mplayer_info_box_wrapper {
+        font-size: 18px;
+        top: 70vh!important;
+    }
+}
+
+@media (max-width:767px) {
+    #mplayer_info_box_wrapper {
+        top: 75vh;
+    }
+}
+
+@media (max-width:1023px) {
+    #mplayer_info_box_wrapper {
+        top: 72vh;
+    }
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
 
 
 

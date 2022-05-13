@@ -1,0 +1,112 @@
+{
+  "name": "Project Kingdom XIII",
+  "artist": "Key Jay",
+  "additional_credits": "",
+  "release": "2019-01-01",
+  "platforms": [
+    {
+      "youtube": "https://youtube.com/playlist?list=PL1Y5Qya2zp98Z7HtE7DXnkjWhzqASBa6o",
+      "spotify": "https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y/discography/album",
+      "bandcamp": "https://keyjayhd.bandcamp.com/album/project-kingdom-xiii-part-1",
+      "applemusic": "https://music.apple.com/us/album/project-kingdom-thirteen-part-1/1449575665",
+      "amazonmusic": "https://www.amazon.com/Project-Kingdom-Thirteen-Part-1/dp/B07MTHV5N7",
+      "direct_dl": "",
+      "weblink_1": "",
+      "weblink_2": ""
+    }
+  ],
+  "general_description": "<p>&ldquo;Project Kingdom XIII&rdquo; is a 7 track tribute EP created by Key Jay ahead of the release of Kingdom Hearts 3 utilizing music originally composed by series veterans Yoko Shimomura and Hikaru Utada.</p> <p>The project features brand new takes on familiar tracks including acapella covers, new orchestral renditions, and an explosive original Kingdom Hearts based production featuring exciting new artists.</p> <p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/videoseries?list=PL1Y5Qya2zp98Z7HtE7DXnkjWhzqASBa6o\" width=\"100%\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+  "project_involvement": "<p>Above my usual composition and mixing duties, I wore MANY hats for this project; project director, producer, promoter, vocalist, video editor, on-site marketing at conventions, and even web designer (for promotional spots).</p> <p>It is certainly one of my largest projects to date and given the incredible Kingdom Hearts community, very well received! I can&rsquo;t thank them enough!</p> <p>The original idea was to make the project a two part production, however other duties have put further production on this project at a hold for the time being.</p>",
+  "credits": [
+    [
+      {
+        "name": "Yoko Shimomura",
+        "role": "Original Composer"
+      },
+      {
+        "name": "Hikaru Utada",
+        "role": "Original Composer"
+      },
+      {
+        "name": "Key Jay",
+        "role": "Composer/Mixing/Production/Writer/Vocals/Video"
+      }
+    ],
+    [
+      {
+        "name": "Austin Davidson",
+        "role": "Writer"
+      },
+      {
+        "name": "Uzochi Onyejuruwa",
+        "role": "Writer"
+      },
+      {
+        "name": "Myles Robinson",
+        "role": "Writer"
+      }
+    ],
+    [
+      {
+        "name": "Serenn",
+        "role": "Vocalist"
+      },
+      {
+        "name": "Out of Pocket (Trufe and Uzi)",
+        "role": "Vocalist/Rappers"
+      },
+      {
+        "name": "SquigglyDigg",
+        "role": "Vocalist"
+      },
+      {
+        "name": "Mighty D",
+        "role": "Vocalist"
+      },
+      {
+        "name": "Chris Thurman",
+        "role": "Vocalist"
+      },
+      {
+        "name": "Cyril the Wolf",
+        "role": "Vocalist"
+      }
+    ],
+    [
+      {
+        "name": "Austin J. Green",
+        "role": "Guitarist"
+      }
+    ],
+    [
+      {
+        "name": "Jamie Norwood",
+        "role": "Voice Actor"
+      },
+      {
+        "name": "Ryoma Ishizuka",
+        "role": "Voice Actor"
+      }
+    ],
+    [
+      {
+        "name": "Oscar L. (Rampage 305)",
+        "role": "Dancer"
+      },
+      {
+        "name": "Raymond W.",
+        "role": "Actor"
+      },
+      {
+        "name": "Jamaal E.",
+        "role": "Drone Pilot"
+      }
+    ],
+    [
+      {
+        "name": "Dan Coutant",
+        "role": "Mastering Engineer (Sun Room Mastering)"
+      }
+    ]
+  ]
+}

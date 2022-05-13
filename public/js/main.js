@@ -87,6 +87,7 @@ new Waypoint({
 })
 
 
+
 //Navigation Anchor Updater
 btns = document.getElementsByClassName("nav_a");
     for (var i = 0; i < btns.length; i++) {
@@ -111,22 +112,66 @@ function clearNavSelect(){
       document.querySelector(".nav_a_clicked").classList.remove("nav_a_clicked");
 }
 
+//Cookies
+function setCookie(cname, cvalue, exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  let expires = "expires="+d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+
+function showFirstStartCheck(){
+  var firstrundone = getCookie("firstrundone");
+  var el = document.querySelector('.h_play_button');
+
+  if (firstrundone == "" || firstrundone == null){
+  pgia.play(el, "PlaylistTip");
+  disableScroll();
+  setCookie("firstrundone", true, 30);
+  }
+}
+
+//Hero Play Button
 function showStart(){
     window['player1'].showPlayer();
     window['player1'].stop();
-    window['player1'].showPlaylist(setTimeout(function(){ 
-        window['player1'].play(); 
-        }, 2000))
-    
+    showFirstStartCheck();
+    setTimeout(function(){ 
+    window['player1'].play(); 
+        }, 2000)   
 }
 
 function mixLink(key) {
     getRecordInfo ('/public/js/music_db/templates/info.hbs',key)
 }
 
-function recal_scroll(){
+function recal_scroll(){//Pinegrow Position reset
     ScrollTrigger.refresh();
     
+}
+
+function disableScroll() {
+  document.body.classList.add("stop-scrolling");
+}
+
+function enableScroll() {
+  document.body.classList.remove("stop-scrolling");
 }
 
 function get_contact(){
@@ -147,7 +192,7 @@ function get_support(){
                         <h3>Support the development of even larger KEY JAY PRODUCTIONS <br/> by:</h3>
                         <div class="sp_options_wrapper">
                             <div class="sp_option sp_option_rightb"><p>Directly supporting KEY JAY by becoming a POWER CREW VIP. Your support goes farther this way by avoiding unnecessary platform fees.</p><a class="pcsp_link" href="https://keyjayonline.com/powercrew.html" target="_blank"><img src="public/img/pc_logo_small.png" alt="Join the POWER CREW VIP"/></a></div>
-                            <div class="sp_option"><p>Or by Supporting KEY JAY on these other fine platforms <br/>(One-Time or by Subscription options available)</p><img src="public/img/patreon-logo.jpg" style="width: 250px;" alt="KEY JAY's Patreon"/><a href="https://ko-fi.com/keyjayhd" target="_blank"><img src="public/img/kofi_logo.png" style="width: 289px;" alt="KEY JAY's Ko-Fi"/><img src="public/img/pp_logo.png" style="width: 289px;" alt="KEY JAY's Pay Pal"/></a>
+                            <div class="sp_option"><p>Or by Supporting KEY JAY on these other fine platforms <br/>(One-Time or by Subscription options available)</p><!--<img src="public/img/patreon-logo.jpg" style="width: 250px;" alt="KEY JAY's Patreon"/>--><a href="https://ko-fi.com/keyjayhd" target="_blank"><img src="public/img/kofi_logo.png" style="width: 289px;" alt="KEY JAY's Ko-Fi"/><img src="public/img/pp_logo.png" style="width: 289px;" alt="KEY JAY's Pay Pal"/></a>
                             
                             </div>
                         </div>
@@ -208,6 +253,7 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
+//MAIN LOAD
 window.onload = function() {
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
@@ -226,6 +272,7 @@ window.onload = function() {
   //GENERATE THE ALBUM LIST
   getRecordsList('/public/js/music_db/templates/home.hbs','/public/js/music_db/kjmdb.json','mix-container');
   get_copyright(YEAR);
+
 };
            
 

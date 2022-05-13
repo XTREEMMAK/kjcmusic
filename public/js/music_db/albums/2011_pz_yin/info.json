@@ -1,0 +1,56 @@
+{
+  "name": "Party-Zon: Yin Strand",
+  "artist": "Key Jay",
+  "additional_credits": "",
+  "release": "2011-06-09",
+  "platforms": [
+    {
+      "youtube": "https://youtube.com/playlist?list=OLAK5uy_lK1rqf4lZjL3mlsIpWDXl3ie6MLKQxIFg",
+      "spotify": "https://open.spotify.com/album/2cLHBK1llUQX5HgUbq2KRR",
+      "bandcamp": "",
+      "applemusic": "https://music.apple.com/us/album/party-zon-yin-strand-ep/439928763",
+      "amazonmusic": "https://www.amazon.com/Party-Zon-Yin-Strand-Key-Jay/dp/B0054YHBDG",
+      "direct_dl": "",
+      "weblink_1": "",
+      "weblink_2": ""
+    }
+  ],
+  "general_description": "<p>An Electronic Pop infused experimental project, the Party-Zon EP&rsquo;s aimed to create a dark and interesting story surrounding the discovery of the mysterious XPZ-010 virus, and its Party inducing side effects causing those infected to unrelentingly dance, party, and have a good time. The music itself not only blends in elements of electronic music and pop, but Hip-Hop, Rock, and R&b as well. The story is told behind the eyes and firsthand account of Doctor Okeen (voice acted by Key Jay) through discovered lost footage and audio recordings.</p> <p><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/videoseries?list=OLAK5uy_lK1rqf4lZjL3mlsIpWDXl3ie6MLKQxIFg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
+  "project_involvement": "<p>The project was created, produced, performed, arranged, and mixed by myself and served as my very first foray into the world of EDM. Honestly, the project was actually created by accident as I simply wanted to experiment with something new and I wasn&rsquo;t really familiar with EDM at the time.</p>",
+  "credits": [
+    [
+      {
+        "name": "Key Jay",
+        "role": "Mixing/Composer/Production/Writer/Vocals"
+      }
+    ],
+    [
+      {
+        "name": "Ms.Blak (Hope Greene)",
+        "role": "Vocalist"
+      },
+      {
+        "name": "Mac Dog",
+        "role": "Rapper"
+      }
+    ],
+    [
+      {
+        "name": "Paolo Angulo",
+        "role": "Guitars"
+      }
+    ],
+    [
+      {
+        "name": "Danielle McRae",
+        "role": "Voice Actor"
+      }
+    ],
+    [
+      {
+        "name": "Carlos Herrera",
+        "role": "Album Artwork"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Final Fantasy VIIR: Beneath a Stolen Sky",
+  "artist": "Pixel Mixers",
+  "additional_credits": "",
+  "release": "2020-09-11",
+  "platforms": [
+    {
+      "youtube": "https://www.youtube.com/watch?v=VBtAX1hfuG8",
+      "spotify": "",
+      "bandcamp": "",
+      "applemusic": "",
+      "amazonmusic": "",
+      "direct_dl": "https://www.mediafire.com/file/v292tiel8oxfhx0/Pixel_Mixers_-_Beneath_a_Stolen_Sky_%255BFinal_Fantasy_VII_Remake%252C_Part_1%255D.zip/file",
+      "weblink_1": "https://pixel-mixers.com/2020/09/20/final-fantasy-vii-remake-beneath-a-stolen-sky-tribute-album",
+      "weblink_2": "https://vgmdb.net/album/103958"
+    }
+  ],
+  "general_description": "<p>&ldquo;Beneath a Stolen Sky&rdquo; is a tribute to Midgar Area tracks from Final Fantasy VII, keeping to the spirit of the Remake. The title is of course inspired by Shinra building the &ldquo;Floating Pizza&rdquo; higher society city above the homes of the lower society people&rsquo;s houses, stealing the sky from them.</p> <p>Originally composed by series veteran Nobuo Uematsu, this album features 23 re-arrangements/remixes from tracks that you can hear in the Midgar area in the original FFVII game + the Remake main theme &ldquo;Hollow&rdquo;. This album involved more than 30 musicians and is the 1st of a compilation of albums that will more or less follow the the releases of the next parts of the Remake, also including the original tracks.</p> <p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/DZt2oK7IqXs\" width=\"100%\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p> <p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/VBtAX1hfuG8\" width=\"100%\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+  "project_involvement": "<p>I contributed a cover to &ldquo;Shinra Company&rdquo;, a dynamic theme that shows both the dark nature and implicit power that the Shinra Company has over their citizens in the game.</p> <p>Considering that I composed this remix ahead of the Remake&rsquo;s release and hearing that development would include new clips featuring Shinra propaganda, I decided to run with that idea a bit. The result is an epic rendition featuring 6 voice talents, Cello work by Chromatic Apparatus, and wonderful guitar work by guest Yuki K.</p>",
+  "credits": [
+    [
+      {
+        "name": "Hashel",
+        "role": "Project Director"
+      }
+    ],
+    [
+      {
+        "name": "Key Jay",
+        "role": "Mixing/Composer/Production/Original Script/Vocals"
+      },
+      {
+        "name": "Yuki K.",
+        "role": "Guitar Solo"
+      },
+      {
+        "name": "Chromatic Apparatus",
+        "role": " Cello"
+      }
+    ],
+    [
+      {
+        "name": "River Kanoff",
+        "role": "Voice Talent"
+      },
+      {
+        "name": "Morlock",
+        "role": "Voice Talent"
+      },
+      {
+        "name": "Andrew Mitchell",
+        "role": "Voice Talent"
+      },
+      {
+        "name": "DarkSide",
+        "role": "Voice Talent"
+      },
+      {
+        "name": "Will Yates",
+        "role": "Voice Talent"
+      },
+      {
+        "name": "Lec Zorn",
+        "role": "Voice Talent"
+      }
+    ],
+    [
+      {
+        "name": "Yuki K.",
+        "role": "Mastering Engineer"
+      }
+    ],
+    [
+      {
+        "name": "Mind Waker",
+        "role": "Album Artwork"
+      }
+    ]
+  ]
+}
