@@ -265,7 +265,7 @@ html {
 
 .m_background::before {
     background-color: #212529;
-    background-image: url('../img/34384059_10213455120386557_8167252240331964416_n.jpg');
+    background-image: url('../img/old_studio.jpg');
     height: 100%;
     width: 100%;
     background-position: top center;
@@ -900,7 +900,7 @@ iframe#About_Page {
 .h_title_wrapper {
     position: absolute;
     z-index: 98;
-    right: 10px;
+    right: 77px;
     font-size: 44px;
     top: 189px;
     letter-spacing: 5px;
@@ -910,7 +910,7 @@ iframe#About_Page {
 .h_sub_title_wrapper {
     position: absolute;
     z-index: 99;
-    right: 20px;
+    right: 78px;
     color: #909090;
     font-family: 'Poiret One', cursive!important;
     text-transform: uppercase;
@@ -979,7 +979,7 @@ iframe#About_Page {
     }
 }
 
-@media (max-width:2137px) {
+@media (max-width:2621px) {
     .h_title_wrapper {
         font-size: 40px;
         margin-top: 465px;
@@ -1281,6 +1281,18 @@ iframe#About_Page {
 .stop-scrolling {
     height: 100%;
     overflow: hidden;
+}
+
+@media (min-width:2049px) {
+    .m_background:before {
+        background-image: url('../img/old_studio_4k.jpg');
+    }
+
+    .h_background:before {
+        background-image: url('../img/J_Header_5k.webp');
+        transform: scale(1.2);
+        background-position: left top;
+    }
 }
 
 
