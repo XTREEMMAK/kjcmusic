@@ -1,4 +1,4 @@
-const host = CDN; 
+const host = "https://cdn.music.keyjayhd.com/"; 
 const playlists = [   
     {
         genre: "STARTER",
@@ -69,7 +69,7 @@ FWDMSPUtils.onReady(function(){
             //main settings
             instanceName:"player1",
             playlistsId:"playlists",
-            mainFolderPath: host+"public/js/mp3-sticky-player/content",
+            mainFolderPath: "public/js/mp3-sticky-player/content",
             skinPath:"minimal_skin_dark",
             privatePassword:"428c841430ea18a70f7b06525d4b748a",
             soundCloudAPIKey:"",

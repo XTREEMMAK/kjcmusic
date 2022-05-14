@@ -5345,10 +5345,14 @@
 					
 					if(_s.xhr.responseText.indexOf("NumberOfEntries") != -1){
 						response = PLS.parse(_s.response);
+						console.log(response);
+						concole.log("TEST")
 					}else if(window.JSON){
 						response = JSON.parse(_s.xhr.responseText);
+						console.log(response);
 					}else{
 						response = eval('('+ _s.xhr.responseText +')');
+						console.log(response);
 					}
 					
 					if(_s.xhr.responseText.indexOf('api.soundcloud.com') != -1){
