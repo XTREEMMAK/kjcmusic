@@ -9,7 +9,7 @@ $baseURL='';
 echo 
 '<script type="text/javascript">
 const HOSTURL = "http://music.keyjayhd.com";
-const CDN = ' . cdnURL .'
+const CDN = "' . cdnURL .'";
 const YEAR = new Date().getFullYear();
 </script>';
 
