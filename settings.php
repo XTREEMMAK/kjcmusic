@@ -1,5 +1,4 @@
 <?php
-
 //Base URL
 define('cdnURL', 'https://cdn.music.keyjayhd.com/');
 define('enURL','');

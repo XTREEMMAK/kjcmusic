@@ -186,7 +186,7 @@ function get_contact(){
 function get_support(){
         modal.setContent(
             `<div class="support_modal_wrapper">
-                    <div class="sm_pic_box" style="width: 40%; margin-left: 5px; margin-right: 5px;"><img src="public/img/pc_supp_left.webp" style="width: 100%;"/></div>
+                    <div class="sm_pic_box" style="width: 40%; margin-left: 5px; margin-right: 5px;"><img src="`+CDN+`public/img/pc_supp_left.webp" style="width: 100%;"/></div>
                     <div class="sm_content_box">
                         <h1>More Key Jay, bigger Productions</h1>
                         <h3>Support the development of even larger KEY JAY PRODUCTIONS <br/> by:</h3>
