@@ -214,8 +214,8 @@
         <script src="<?php echo $baseURL; ?>public/js/mixitup3/mixitup.min.js"></script>
         <script src="<?php echo $baseURL; ?>public/js/pgia/lib/pgia.js"></script>
         <script src="<?php echo $baseURL; ?>public/js/waypoints/noframework.waypoints.min.js"></script>                  
-        <script src="<?php echo $baseURL; ?>public/js/music_db/kjmdb.min.js"></script>         
+        <script src="<?php echo $baseURL; ?>public/js/music_db/kjmdb.js"></script>         
         <script src="<?php echo $baseURL; ?>public/js/vlazyload/lazyload.min.js"></script>               
-        <script src="<?php echo $baseURL; ?>public/js/main.min.js" defer></script>         
+        <script src="<?php echo $baseURL; ?>public/js/main.js" defer></script>         
     </body>     
 </html>

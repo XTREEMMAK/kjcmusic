@@ -2,7 +2,7 @@
 //Javascript Constants
 echo 
 '<script type="text/javascript">
-const HOSTURL = "http://music.keyjayhd.test/";
+const HOSTURL = "http://music.keyjayhd.com";
 const YEAR = new Date().getFullYear();
 </script>';
 
