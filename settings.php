@@ -2,7 +2,7 @@
 //Javascript Constants
 echo 
 '<script type="text/javascript">
-const HOSTURL = "http://music.keyjayhd.test/";
+const HOSTURL = "http://music.keyjayhd.com/";
 const YEAR = new Date().getFullYear();
 </script>';
 
@@ -13,7 +13,7 @@ $baseURL='';
 
 //Environment Switcher
 //0 = CDN | 1 = LOCAL 
-$i = 1;
+$i = 0;
 
 switch ($i) {
     case 0:
