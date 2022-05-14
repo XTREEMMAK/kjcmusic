@@ -270,7 +270,9 @@ window.onload = function() {
   document.body.appendChild(css);
 
   //GENERATE THE ALBUM LIST
-  getRecordsList('/public/js/music_db/templates/home.hbs','/public/js/music_db/kjmdb.json','mix-container');
+  getRecordsList(CDN+'/public/js/music_db/templates/home.hbs',CDN+'/public/js/music_db/kjmdb.json','mix-container');
+  
+  //SET COPYRIGHT YEAR
   get_copyright(YEAR);
 
 };
