@@ -8,7 +8,6 @@ This is the offical GitHub repository for the Key Jay Music website.
 
 Almost all site settings are handled within the settings.php file.
 Here is where you'd typically modify the HOST source path for images (connecting to the CDN). I've created a switch as an environment switcher for easy modifications between development mode and production mode.
-
 <br>
 ```
 //Environment Switcher
