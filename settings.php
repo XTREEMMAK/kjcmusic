@@ -1,15 +1,19 @@
 <?php
-//Javascript Constants
-echo 
-'<script type="text/javascript">
-const HOSTURL = "http://music.keyjayhd.com";
-const YEAR = new Date().getFullYear();
-</script>';
 
 //Base URL
 define('cdnURL', 'https://cdn.music.keyjayhd.com/');
 define('enURL','');
 $baseURL='';
+
+//Javascript Constants
+echo 
+'<script type="text/javascript">
+const HOSTURL = "http://music.keyjayhd.com";
+const CDN = ' . cdnURL .'
+const YEAR = new Date().getFullYear();
+</script>';
+
+
 
 //Environment Switcher
 //0 = CDN | 1 = LOCAL 
