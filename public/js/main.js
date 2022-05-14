@@ -191,8 +191,8 @@ function get_support(){
                         <h1>More Key Jay, bigger Productions</h1>
                         <h3>Support the development of even larger KEY JAY PRODUCTIONS <br/> by:</h3>
                         <div class="sp_options_wrapper">
-                            <div class="sp_option sp_option_rightb"><p>Directly supporting KEY JAY by becoming a POWER CREW VIP. Your support goes farther this way by avoiding unnecessary platform fees.</p><a class="pcsp_link" href="https://keyjayonline.com/powercrew.html" target="_blank"><img src="public/img/pc_logo_small.png" alt="Join the POWER CREW VIP"/></a></div>
-                            <div class="sp_option"><p>Or by Supporting KEY JAY on these other fine platforms <br/>(One-Time or by Subscription options available)</p><!--<img src="public/img/patreon-logo.jpg" style="width: 250px;" alt="KEY JAY's Patreon"/>--><a href="https://ko-fi.com/keyjayhd" target="_blank"><img src="public/img/kofi_logo.png" style="width: 289px;" alt="KEY JAY's Ko-Fi"/><img src="public/img/pp_logo.png" style="width: 289px;" alt="KEY JAY's Pay Pal"/></a>
+                            <div class="sp_option sp_option_rightb"><p>Directly supporting KEY JAY by becoming a POWER CREW VIP. Your support goes farther this way by avoiding unnecessary platform fees.</p><a class="pcsp_link" href="https://keyjayonline.com/powercrew.html" target="_blank"><img src="`+CDN+`public/img/pc_logo_small.png" alt="Join the POWER CREW VIP"/></a></div>
+                            <div class="sp_option"><p>Or by Supporting KEY JAY on these other fine platforms <br/>(One-Time or by Subscription options available)</p><!--<img src="`+CDN+`public/img/patreon-logo.jpg" style="width: 250px;" alt="KEY JAY's Patreon"/>--><a href="https://ko-fi.com/keyjayhd" target="_blank"><img src="`+CDN+`public/img/kofi_logo.png" style="width: 289px;" alt="KEY JAY's Ko-Fi"/><img src="`+CDN+`public/img/pp_logo.png" style="width: 289px;" alt="KEY JAY's Pay Pal"/></a>
                             
                             </div>
                         </div>
