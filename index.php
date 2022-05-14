@@ -22,10 +22,10 @@
         <meta name="twitter:image" content="https://cdn.music.keyjayhd.com/public/img/social_1200.jpg"/>
         
         <?php require 'settings.php'; ?> 
-        <link href="<? echo $baseURL; ?>public/css/theme.css" rel="stylesheet" type="text/css"/> 
-        <link href="<? echo $baseURL; ?>public/css/style.css" rel="stylesheet"/> 
-        <link href="<? echo $baseURL; ?>public/js/mp3-sticky-player/content/global.css" rel="stylesheet" type="text/css"/> 
-        <link href="<? echo $baseURL; ?>public/js/tingle/tingle.css" rel="stylesheet"/>
+        <link href="<?php echo $baseURL; ?>public/css/theme.css" rel="stylesheet" type="text/css"/> 
+        <link href="<?php echo $baseURL; ?>public/css/style.css" rel="stylesheet"/> 
+        <link href="<?php echo $baseURL; ?>public/js/mp3-sticky-player/content/global.css" rel="stylesheet" type="text/css"/> 
+        <link href="<?php echo $baseURL; ?>public/js/tingle/tingle.css" rel="stylesheet"/>
         <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>         
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap"/><link rel="icon" href="public/img/kj_logo_icon.svg" type="image/svg+xml"/></head>     
     <body> 
@@ -36,7 +36,7 @@
                         <a href="#Music" class="nav_a music_nav" data-pg-ia='{"l":[{"name":"Music_Nav","trg":"click","t":"this","a":{"l":[{"t":"$body","l":[{"t":"tween","p":0,"d":1.86,"l":{"scrollTo":{"dest":"#Music"}},"e":"Cubic.easeInOut"},{"t":"set","p":1.82,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"$.music_nav","l":[{"t":"set","p":1.86,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"pdef":"true","sprop":"true"},{"name":"Hide_Page2","trg":"click","t":"$#Page-2","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"opacity":0}},{"t":"set","p":0.5,"d":0,"l":{"display":"none","class.remove":"active_page"}}]},{"t":"$#Page-1","l":[{"t":"set","p":0.5,"d":0,"l":{"display":"block","class.add":"active_page"}},{"t":"tween","p":0.5,"d":0.5,"l":{"opacity":1}},{"t":"set","p":0.87,"d":0,"l":{"pgCall":{"update":"recal_scroll"}}}]},{"t":"$body","l":[{"t":"tween","p":1,"d":1.8,"l":{"scrollTo":{"dest":"#Music"}},"e":"Quad.easeInOut"}]}]},"tc":"class","tcv":"active_page"}]}'>Music</a>
                         <a href="#Radio" class="nav_a radio_nav" data-pg-ia='{"l":[{"name":"Radio_Nav","trg":"click","t":"this","a":{"l":[{"t":"$body","l":[{"t":"tween","p":0,"d":1.86,"l":{"scrollTo":{"dest":"#Radio","offset":-60}},"e":"Cubic.easeInOut"},{"t":"set","p":1.82,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"$.radio_nav","l":[{"t":"set","p":1.86,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"pdef":"true","sprop":"true"},{"name":"Hide_Page2","trg":"click","t":"$#Page-2","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"opacity":0}},{"t":"set","p":0.5,"d":0,"l":{"display":"none","class.remove":"active_page"}}]},{"t":"$#Page-1","l":[{"t":"set","p":0.5,"d":0,"l":{"display":"block","class.add":"active_page"}},{"t":"tween","p":0.5,"d":0.5,"l":{"opacity":1}},{"t":"set","p":0.9,"d":0,"l":{"pgCall":{"update":"recal_scroll"}}}]},{"t":"$body","l":[{"t":"tween","p":1,"d":1.8,"s":0.2,"l":{"scrollTo":{"dest":"#Radio"}},"e":"Quad.easeInOut"}]}]},"tc":"class","tcv":"active_page"}]}'>Radio</a>
                         <a href="#New-Release" class="nav_a latest_nav" data-pg-ia='{"l":[{"name":"Latest_Nav","trg":"click","t":"this","a":{"l":[{"t":"$body","l":[{"t":"tween","p":0,"d":1.86,"l":{"scrollTo":{"dest":"#New-Release"}},"e":"Cubic.easeInOut"},{"t":"set","p":1.82,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"$.latest_nav","l":[{"t":"set","p":1.86,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"pdef":"true","sprop":"true"},{"name":"Hide_Page2","trg":"click","t":"$#Page-2","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"opacity":0}},{"t":"set","p":0.5,"d":0,"l":{"display":"none","class.remove":"active_page"}}]},{"t":"$#Page-1","l":[{"t":"set","p":0.5,"d":0,"l":{"display":"block","class.add":"active_page"}},{"t":"tween","p":0.5,"d":0.5,"l":{"opacity":1}},{"t":"set","p":0.9,"d":0,"l":{"pgCall":{"update":"recal_scroll"}}}]},{"t":"$body","l":[{"t":"tween","p":1,"d":1.8,"l":{"scrollTo":{"dest":"#New-Release"}},"e":"Quad.easeInOut"}]}]},"tc":"class","tcv":"active_page"}]}'>Latest</a>
-                        <a href="#" class="nav_a_clicked"><img src="<? echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo" height="80" class="dn_logo image" data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"$body","l":[{"t":"tween","p":0.01,"d":1.48,"l":{"scrollTo":{"dest":0}},"e":"Power4.easeInOut"},{"t":"set","p":1.49,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"","l":[{"t":"set","p":1.54,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"pdef":"true","sprop":"true"}]}'/></a>
+                        <a href="#" class="nav_a_clicked"><img src="<?php echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo" height="80" class="dn_logo image" data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"$body","l":[{"t":"tween","p":0.01,"d":1.48,"l":{"scrollTo":{"dest":0}},"e":"Power4.easeInOut"},{"t":"set","p":1.49,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"","l":[{"t":"set","p":1.54,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"pdef":"true","sprop":"true"}]}'/></a>
                         <a href="#About" class="nav_a about_nav" data-pg-ia='{"l":[{"name":"OpenPage2","trg":"click","t":"$#Page-2","a":{"l":[{"t":"$.active_page","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"active_page"}},{"t":"tween","p":0,"d":0.5,"l":{"opacity":0}},{"t":"set","p":0.5,"d":0,"l":{"display":"none"}},{"t":"tween","p":0.6,"d":0.4,"l":{"pgCall":{"complete":"recal_scroll"}}}]},{"t":"$#Page-2","l":[{"t":"set","p":0.5,"d":0,"l":{"display":"block","opacity":0,"class.add":"active_page"}},{"t":"tween","p":0.5,"d":0.5,"l":{"opacity":1}}]},{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"${Page_Tracking}":2}}]},{"t":"$body","l":[{"t":"set","p":0.5,"d":0,"l":{"scrollTo":{"dest":0}}},{"t":"set","p":0.99,"d":0,"l":{"pgCall":{"complete":"clearNavSelect"}}}]},{"t":"$.about_nav","l":[{"t":"set","p":1.01,"d":0,"l":{"class.add":"nav_a_clicked"}}]}]},"tc":"no-class","tca":"${Page_Tracking}","tcv":"active_page","pdef":"true","sprop":"true","po":"true"}]}'>About</a>
                         <a href="#Contact" class="nav_a contact_nav" data-pg-ia='{"l":[{"name":"Contact_Nav","trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0.01,"d":0,"l":{"pgCall":{"complete":"get_contact"}}}]}]},"pdef":"true","sprop":"true"}]}'>Contact</a>
                         <a href="#Support" class="nav_a support_nav" data-pg-ia='{"l":[{"name":"Support_Nav","trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0.01,"d":0,"l":{"pgCall":{"update":"get_support"}}}]}]},"pdef":"true","sprop":"true"}]}'>Support</a> 
@@ -47,7 +47,7 @@
             </div>             
             <div class="mobile_nav"> 
                 <div class="mobile_nav_container"> 
-                    <img src="<? echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo" height="80" data-pg-ia='{"l":[]}' style="float: left; position: relative; margin-left: 37px; margin-top: 12px;"/> <a><div class="mn_menu_btn" data-pg-ia='{"l":[{"name":"mm_click","trg":"click","t":"this","a":{"l":[{"t":"$.mn_menu_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":1},"e":"Power4.easeInOut"}]},{"t":"$body","l":[{"t":"tween","p":0,"d":0.5,"l":{"class.add":"lb_scroll_disable"}}]}]}}]}'> 
+                    <img src="<?php echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo" height="80" data-pg-ia='{"l":[]}' style="float: left; position: relative; margin-left: 37px; margin-top: 12px;"/> <a><div class="mn_menu_btn" data-pg-ia='{"l":[{"name":"mm_click","trg":"click","t":"this","a":{"l":[{"t":"$.mn_menu_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":1},"e":"Power4.easeInOut"}]},{"t":"$body","l":[{"t":"tween","p":0,"d":0.5,"l":{"class.add":"lb_scroll_disable"}}]}]}}]}'> 
                             <label class="fa fa-bars"></label>                             
                         </div></a> 
                     <div class="mn_menu_wrapper" data-pg-ia-hide> 
@@ -113,22 +113,22 @@
                     </div>                     
                     <div class="r_network_wrapper"> 
                         <div class="r_logo_box">
-                            <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/spotify.jpg" alt="Spotify"/></a> 
+                            <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/spotify.jpg" alt="Spotify"/></a> 
                         </div>                         
                         <div class="r_logo_box">
-                            <a href="https://music.apple.com/us/artist/key-jay/439747860" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/apple.jpg" alt="Apple Music"/></a> 
+                            <a href="https://music.apple.com/us/artist/key-jay/439747860" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/apple.jpg" alt="Apple Music"/></a> 
                         </div>                         
                         <div class="r_logo_box">
-                            <a href="https://www.deezer.com/us/artist/5277095" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/deezer.jpg" alt="Deezer"/></a> 
+                            <a href="https://www.deezer.com/us/artist/5277095" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/deezer.jpg" alt="Deezer"/></a> 
                         </div>                         
                         <div class="r_logo_box">
-                            <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/tidal.jpg" alt="Tidal"/></a> 
+                            <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/tidal.jpg" alt="Tidal"/></a> 
                         </div>                         
                         <div class="r_logo_box">
-                            <a href="https://music.amazon.com/artists/B0052BEBB6/key-jay" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/amazon.jpg" alt="Amazon Music"/></a> 
+                            <a href="https://music.amazon.com/artists/B0052BEBB6/key-jay" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/amazon.jpg" alt="Amazon Music"/></a> 
                         </div>                         
                         <div class="r_logo_box">
-                            <a href="https://music.youtube.com/channel/UCsWj-kpSHEedeSdhw8mo7BA" target="_blank"><img class="r_logo_box" src="<? echo $baseURL; ?>public/img/radio_logos/youtubemusic.jpg" alt="YouTube Music"/></a> 
+                            <a href="https://music.youtube.com/channel/UCsWj-kpSHEedeSdhw8mo7BA" target="_blank"><img class="r_logo_box" src="<?php echo $baseURL; ?>public/img/radio_logos/youtubemusic.jpg" alt="YouTube Music"/></a> 
                         </div>                         
                     </div>                                          
                 </div>                 
@@ -157,16 +157,16 @@
         <div id="Footer" class="footer_wrapper" data-pg-ia-scene='{"dir":"a","dbg":"true","s":"custom","s_t":"start","s_s":"end","e_t":"end","l":[{"t":".ft_content","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0,"y":"100%"},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"y":"0%"},"e":"Power1.easeOut"}]},{"t":"$.ftbg","l":[{"t":"set","p":0.01,"d":0,"l":{"media.play":""}}]}]},"p":"time","s":"45","rev":"true","rep":"true"}],"e_s":"end"}'> 
             <div class="ft_background-wrapper"> 
                 <div class="ft_background-video" data-autoplay="true" data-loop="true" style="overflow: hidden;"> 
-                    <video class="ftbg lazy" preload="none" loop="" style='background-image: url("<? echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"); width: 110%; height: auto;' muted="" playsinline="" data-object-fit="cover" data-src="<? echo $baseURL; ?>public/videos/MAIN-transcode.mp4" data-poster="<? echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"> 
-                        <source src="<? echo $baseURL; ?>public/videos/MAIN-transcode.mp4"/> 
-                        <source src="<? echo $baseURL; ?>public/videos/MAIN-transcode.webm"/> 
+                    <video class="ftbg lazy" preload="none" loop="" style='background-image: url("<?php echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"); width: 110%; height: auto;' muted="" playsinline="" data-object-fit="cover" data-src="<?php echo $baseURL; ?>public/videos/MAIN-transcode.mp4" data-poster="<?php echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"> 
+                        <source src="<?php echo $baseURL; ?>public/videos/MAIN-transcode.mp4"/> 
+                        <source src="<?php echo $baseURL; ?>public/videos/MAIN-transcode.webm"/> 
                     </video>                     
                 </div>                 
             </div>             
             <div class="ft_content" data-pg-ia-hide> 
                 <div class="ft_container"> 
                     <div class="grid-item" style="align-items: flex-end; justify-content: center; flex-wrap: nowrap;"> 
-                        <img class="ft_logo" src="<? echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo"/> 
+                        <img class="ft_logo" src="<?php echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo"/> 
                         <div class="ft_social-wrapper"> <a href="https://youtube.com/c/keyjayhd" target="_blank"><i class="fab fa-youtube"></i></a> <a href="https://twitter.com/keyjayHD" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/keyjayhd/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><i class="fab fa-spotify"></i></a> <a href="https://keyjayhd.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a> 
                         </div>                         
                     </div>                     
@@ -201,21 +201,21 @@
         <div id="mplayer_info_box_wrapper">
             <div id="mpib_content">
                 <p>Cool! You&apos;re listening to my music! <br/>By the way, if you click any of these buttons, you can hear genre specific samples and see the currently loaded playlist.</p>
-                <img src="<? echo $baseURL; ?>public/img/plnote.jpg" loading="lazy" alt="Playlist Icons" style="width: 20%;"/>
+                <img src="<?php echo $baseURL; ?>public/img/plnote.jpg" loading="lazy" alt="Playlist Icons" style="width: 20%;"/>
             </div>
         </div>
         <!-- ####### -->
         <div id="blackout" data-pg-ia-hide data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"pgCall":{"complete":"enableScroll"}}},{"t":"tween","p":0.01,"d":0.5,"l":{"autoAlpha":0}}]},{"t":"$#mplayer_info_box_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"x":"50vw"}}]}]}}]}'></div>          
         <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
-        <script src="<? echo $baseURL; ?>public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script>         
-        <script src="<? echo $baseURL; ?>public/js/mp3-sticky-player/player_settings.js"></script>         
-        <script src="<? echo $baseURL; ?>public/js/tingle/tingle.js"></script>         
-        <script src="<? echo $baseURL; ?>public/js/handlebars/handlebars.min-v4.7.7.js"></script>                 
-        <script src="<? echo $baseURL; ?>public/js/mixitup3/mixitup.min.js"></script>
-        <script src="<? echo $baseURL; ?>public/js/pgia/lib/pgia.js"></script>
-        <script src="<? echo $baseURL; ?>public/js/waypoints/noframework.waypoints.min.js"></script>                  
-        <script src="<? echo $baseURL; ?>public/js/music_db/kjmdb.min.js"></script>         
-        <script src="<? echo $baseURL; ?>public/js/vlazyload/lazyload.min.js"></script>               
-        <script src="<? echo $baseURL; ?>public/js/main.min.js" defer></script>         
+        <script src="<?php echo $baseURL; ?>public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script>         
+        <script src="<?php echo $baseURL; ?>public/js/mp3-sticky-player/player_settings.js"></script>         
+        <script src="<?php echo $baseURL; ?>public/js/tingle/tingle.js"></script>         
+        <script src="<?php echo $baseURL; ?>public/js/handlebars/handlebars.min-v4.7.7.js"></script>                 
+        <script src="<?php echo $baseURL; ?>public/js/mixitup3/mixitup.min.js"></script>
+        <script src="<?php echo $baseURL; ?>public/js/pgia/lib/pgia.js"></script>
+        <script src="<?php echo $baseURL; ?>public/js/waypoints/noframework.waypoints.min.js"></script>                  
+        <script src="<?php echo $baseURL; ?>public/js/music_db/kjmdb.min.js"></script>         
+        <script src="<?php echo $baseURL; ?>public/js/vlazyload/lazyload.min.js"></script>               
+        <script src="<?php echo $baseURL; ?>public/js/main.min.js" defer></script>         
     </body>     
 </html>
