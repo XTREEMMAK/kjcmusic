@@ -157,8 +157,8 @@ function showStart(){
         }, 2000)   
 }
 
-function mixLink(key) {
-    getRecordInfo ('/public/js/music_db/templates/info.hbs',key)
+function mixLink(key) {//Record Info Links
+    getRecordInfo (CDN+'/public/js/music_db/templates/info.hbs',key)
 }
 
 function recal_scroll(){//Pinegrow Position reset
