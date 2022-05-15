@@ -201,13 +201,13 @@
         <div id="mplayer_info_box_wrapper">
             <div id="mpib_content">
                 <p>Cool! You&apos;re listening to my music! <br/>By the way, if you click any of these buttons, you can hear genre specific samples and see the currently loaded playlist.</p>
-                <img src="<?php echo $baseURL; ?>public/img/plnote.jpg" loading="lazy" alt="Playlist Icons" style="width: 20%;"/>
+                <img src="<?php echo $baseURL; ?>public/img/plnote_.jpg" loading="lazy" alt="Playlist Icons" style="width: 20%;"/>
             </div>
         </div>
         <!-- ####### -->
         <div id="blackout" data-pg-ia-hide data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"pgCall":{"complete":"enableScroll"}}},{"t":"tween","p":0.01,"d":0.5,"l":{"autoAlpha":0}}]},{"t":"$#mplayer_info_box_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"x":"50vw"}}]}]}}]}'></div>          
         <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
-        <script src="public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script> <!-- REQUIRES LOCAL HOSTING  -->         
+        <script src="public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script> <!-- REQUIRES LOCAL HOSTING -->         
         <script src="public/js/mp3-sticky-player/player_settings.js"></script> <!-- REQUIRES LOCAL HOSTING -->         
         <script src="<?php echo $baseURL; ?>public/js/tingle/tingle.js"></script>         
         <script src="<?php echo $baseURL; ?>public/js/handlebars/handlebars.min-v4.7.7.js"></script>                 
