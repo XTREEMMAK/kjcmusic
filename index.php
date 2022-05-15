@@ -207,8 +207,8 @@
         <!-- ####### -->
         <div id="blackout" data-pg-ia-hide data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"pgCall":{"complete":"enableScroll"}}},{"t":"tween","p":0.01,"d":0.5,"l":{"autoAlpha":0}}]},{"t":"$#mplayer_info_box_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"x":"50vw"}}]}]}}]}'></div>          
         <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
-        <script src="<?php echo $baseURL; ?>public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script>         
-        <script src="<?php echo $baseURL; ?>public/js/mp3-sticky-player/player_settings.js"></script>         
+        <script src="public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script> <!-- REQUIRES LOCAL HOSTING -->         
+        <script src="public/js/mp3-sticky-player/player_settings.js"></script> <!-- REQUIRES LOCAL HOSTING -->         
         <script src="<?php echo $baseURL; ?>public/js/tingle/tingle.js"></script>         
         <script src="<?php echo $baseURL; ?>public/js/handlebars/handlebars.min-v4.7.7.js"></script>                 
         <script src="<?php echo $baseURL; ?>public/js/mixitup3/mixitup.min.js"></script>
