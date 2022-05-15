@@ -6,7 +6,7 @@
         <title>KEY JAY MUSIC</title>
         <meta name="author" content="Jamaal Ephriam"/> 
         <meta name="description" content="The official website of musician, composer, and producer KEY JAY!"/>
-        <meta name="viewport" content="width=device-width"/>
+        
         <!-- Facebook Meta Tags -->
         <meta property="og:url" content="https://keyjaymusic.com"/>
         <meta property="og:title" content="KEY JAY MUSIC"/>
