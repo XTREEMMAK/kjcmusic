@@ -6,7 +6,7 @@
         <title>KEY JAY MUSIC</title>
         <meta name="author" content="Jamaal Ephriam"/> 
         <meta name="description" content="The official website of musician, composer, and producer KEY JAY!"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- Facebook Meta Tags -->
         <meta property="og:url" content="https://keyjaymusic.com"/>
         <meta property="og:title" content="KEY JAY MUSIC"/>
@@ -154,7 +154,7 @@
         <div id="Page-2" class="page-2" data-pg-ia-scene='{"dir":"v","s":"custom","d":"98%","o":"16px","s_t":"start","s_s":"end","e_t":"end","e_target":"this","e_s":"end","l":[]}'> 
             <iframe id="About_Page" src="http://kjo.test/about-me.html" frameborder="0" loading="lazy" height="100%" width="100%"></iframe>
         </div>         
-        <div id="Footer" class="footer_wrapper" data-pg-ia-scene='{"dir":"a","dbg":"true","s":"custom","s_t":"start","s_s":"end","e_t":"end","l":[{"t":".ft_content","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0,"y":"100%"},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"y":"0%"},"e":"Power1.easeOut"}]},{"t":"$.ftbg","l":[{"t":"set","p":0.01,"d":0,"l":{"media.play":""}}]}]},"p":"time","s":"45","rev":"true","rep":"true"}],"e_s":"end"}'> 
+        <div id="Footer" class="footer_wrapper" data-pg-ia-scene='{"dir":"a","dbg":"true","s":"custom","s_t":"start","s_s":"end","e_t":"end","e_s":"end","l":[{"t":".ft_content","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0,"y":"100%"},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"y":"0%"},"e":"Power1.easeOut"}]},{"t":"$.ftbg","l":[{"t":"set","p":0.01,"d":0,"l":{"media.play":""}}]}]},"p":"time","s":"45","rev":"true","rep":"true","on":"desktop"}]}'> 
             <div class="ft_background-wrapper"> 
                 <div class="ft_background-video" data-autoplay="true" data-loop="true" style="overflow: hidden;"> 
                     <video class="ftbg lazy" preload="none" loop="" style='background-image: url("<?php echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"); width: 110%; height: auto;' muted="" playsinline="" data-object-fit="cover" data-src="<?php echo $baseURL; ?>public/videos/MAIN-transcode.mp4" data-poster="<?php echo $baseURL; ?>public/videos/MAIN-poster-00001.jpg"> 
@@ -163,10 +163,10 @@
                     </video>                     
                 </div>                 
             </div>             
-            <div class="ft_content" data-pg-ia-hide> 
+            <div class="ft_content" data-pg-ia-hide="desktop" data-pg-ia-show="mobile"> 
                 <div class="ft_container"> 
                     <div class="grid-item" style="align-items: flex-end; justify-content: center; flex-wrap: nowrap;"> 
-                        <img class="ft_logo" src="<?php echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo"/> 
+                        <img class="ft_logo" src="<?php echo $baseURL; ?>public/img/KJ_Logo_Medium_W.svg" loading="lazy" alt="Logo"/><br/> 
                         <div class="ft_social-wrapper"> <a href="https://youtube.com/c/keyjayhd" target="_blank"><i class="fab fa-youtube"></i></a> <a href="https://twitter.com/keyjayHD" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/keyjayhd/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://open.spotify.com/artist/3CjTB31prJSWcF487gKZ9Y" target="_blank"><i class="fab fa-spotify"></i></a> <a href="https://keyjayhd.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a> 
                         </div>                         
                     </div>                     
@@ -207,8 +207,8 @@
         <!-- ####### -->
         <div id="blackout" data-pg-ia-hide data-pg-ia='{"l":[{"trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"pgCall":{"complete":"enableScroll"}}},{"t":"tween","p":0.01,"d":0.5,"l":{"autoAlpha":0}}]},{"t":"$#mplayer_info_box_wrapper","l":[{"t":"tween","p":0,"d":0.5,"l":{"x":"50vw"}}]}]}}]}'></div>          
         <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
-        <script src="public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript"></script> <!-- REQUIRES LOCAL HOSTING -->         
-        <script src="public/js/mp3-sticky-player/player_settings.js"></script> <!-- REQUIRES LOCAL HOSTING -->         
+        <script src="public/js/mp3-sticky-player/java/FWDMSP.js" type="text/javascript" defer></script> <!-- REQUIRES LOCAL HOSTING -->         
+        <script src="public/js/mp3-sticky-player/player_settings.js" defer></script> <!-- REQUIRES LOCAL HOSTING -->         
         <script src="<?php echo $baseURL; ?>public/js/tingle/tingle.js"></script>         
         <script src="<?php echo $baseURL; ?>public/js/handlebars/handlebars.min-v4.7.7.js"></script>                 
         <script src="<?php echo $baseURL; ?>public/js/mixitup3/mixitup.min.js"></script>
