@@ -127,9 +127,10 @@ html {
     z-index: 99;
     position: absolute;
     transition: 0.5s cubic-bezier(0.03, 0.00, 0.14, 0.97);
-    top: 416px;
     display: block;
     right: -28%;
+    bottom: 0;
+    margin-bottom: 210px;
 }
 
 .new_release_wrapper {
@@ -982,11 +983,16 @@ iframe#About_Page {
 @media (max-width:2621px) {
     .h_title_wrapper {
         font-size: 40px;
-        margin-top: 465px;
+        bottom: 0;
+        position: absolute;
+        top: auto;
+        margin-bottom: 38px;
     }
 
     .h_sub_title_wrapper {
-        margin-top: 454px;
+        bottom: 0;
+        top: auto;
+        margin-bottom: 50px;
     }
 }
 
