@@ -1012,18 +1012,18 @@ iframe#About_Page {
 
     .h_title_wrapper {
         left: 7px;
-        margin-top: 265px;
+        margin-top: 333px;
+        width: 100%;
     }
 
     .h_title_wrapper h1 {
-        font-size: 56px;
         text-align: center;
     }
 
     .h_play_button {
-        margin-top: 234px;
-        left: 54vw;
+        margin-top: 308px;
         right: auto;
+        left: 60%;
     }
 }
 
@@ -1275,6 +1275,7 @@ iframe#About_Page {
 @media (max-width:1023px) {
     #mplayer_info_box_wrapper {
         top: 72vh;
+        right: -100vw;
     }
 }
 
@@ -1292,6 +1293,98 @@ iframe#About_Page {
         background-image: url('../img/J_Header_5k.webp');
         transform: scale(1.2);
         background-position: left top;
+    }
+}
+
+@media (max-width:539px) {
+    .mobile_nav_container img {
+        width: 113px;
+    }
+}
+
+@media (max-width:461px) {
+    .h_play_button {
+        width: 55vw;
+        margin-top: 29vh;
+        margin-left: 15px;
+    }
+
+    .play_circle_text_wrapper {
+        left: -19px;
+        top: -8px;
+        display: none;
+    }
+
+    .grid-item {
+        display: flex;
+        grid-column: 1;
+        width: 100vw;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .ft_container {
+        width: 100vw;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-right: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .ft_content {
+        width: 100%;
+        height: auto;
+    }
+
+    .ft_social-wrapper {
+        width: 100vw;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 239px;
+    }
+
+    .ft_logo {
+        width: 300px;
+        display: flex;
+    }
+
+    h3 {
+        width: 100%;
+        padding-right: 26px;
+        padding-left: 24px;
+    }
+
+    .grid-item ul {
+        width: 100%;
+    }
+
+    .ft_background-video {
+        display: none;
+    }
+
+    .footer_wrapper {
+        background-color: #1e1e1e;
+        background-image: linear-gradient(180deg, #232526 0%, #414345 100%);
+    }
+
+    .h_title_wrapper {
+        width: 100vw;
+        left: 0;
+        right: 0;
+        top: 20%;
+    }
+}
+
+@media (max-width:539px) {
+    .h_title_wrapper {
+        width: 100%;
+        margin-top: 341px;
+    }
+
+    .h_play_button {
+        margin-top: 306px;
     }
 }
 
