@@ -234,19 +234,20 @@ html {
     background-color: #212529;
     background-image: url('../img/keyjayside.webp');
     background-repeat: no-repeat;
-    background-position: top 70%;
+    background-position: center top;
     background-size: cover;
     content: '';
     margin: auto;
     position: fixed;
-    width: 100%;
-    height: 156%;
+    width: 100vw;
+    height: 100vh;
     left: 0;
     top: 0;
     padding-top: 0px;
     will-change: transform;
     z-index: -55;
     filter: invert(0.17) brightness(0.5);
+    transform: scale(1.5) translate(228px, 115px);
 }
 
 .r_content {
@@ -561,7 +562,7 @@ a.mix:hover {
     .mobile_nav {
         width: 100vw;
         font-size: 65px;
-        height: 113px;
+        height: 70px;
         position: fixed;
         z-index: 99;
         display: flex;
@@ -601,7 +602,7 @@ a.mix:hover {
 
 .mn_menu_btn {
     margin-right: 38px;
-    margin-top: 17px;
+    margin-top: 0px;
     float: right;
     cursor: pointer;
     z-index: 99;
@@ -1006,8 +1007,8 @@ iframe#About_Page {
     }
 
     .h_sub_title_wrapper {
-        margin-top: 415px;
         left: 39px;
+        bottom: -13px;
     }
 }
 
@@ -1029,7 +1030,8 @@ iframe#About_Page {
     .h_play_button {
         margin-top: 308px;
         right: auto;
-        left: 60%;
+        left: 88%;
+        top: -45px;
     }
 }
 
@@ -1231,19 +1233,8 @@ iframe#About_Page {
     z-index: 100000;
     display: inline-block;
     top: 69vh;
-    right: -50VW;
+    right: -98VW;
     left: -;
-}
-
-#mplayer_info_box_wrapper::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0px;
-    border-left: 19px solid transparent;
-    border-right: 19px solid transparent;
-    border-top: 34px solid #333d48;
-    left: 233px;
 }
 
 #mpib_content {
@@ -1303,9 +1294,6 @@ iframe#About_Page {
 }
 
 @media (max-width:539px) {
-    .mobile_nav_container img {
-        width: 113px;
-    }
 }
 
 @media (max-width:461px) {
@@ -1391,6 +1379,33 @@ iframe#About_Page {
 
     .h_play_button {
         margin-top: 306px;
+    }
+}
+
+@media (max-width:1376px) {
+    .r_background::before {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:701px) {
+    .h_play_button {
+        top: -103px;
+    }
+}
+
+@media (max-width:461px) {
+    .h_play_button {
+        top: 42px;
+        width: 207px;
+        left: 53vw;
+    }
+}
+
+@media (max-width:401px) {
+    .h_title_wrapper h1 {
+        font-size: 40px;
+        margin-top: 42px;
     }
 }
 
