@@ -524,14 +524,6 @@ a.mix:hover {
     }
 }
 
-@media (max-width:767px) {
-}
-
-@media (max-width:639px) {
-    .section_headers {
-    }
-}
-
 @media (max-width:539px) {
     .section_headers {
         font-size: 1em;
@@ -569,6 +561,7 @@ a.mix:hover {
         background-color: #1e1c1c;
         justify-content: flex-end;
         right: 0;
+        left: 0;
     }
 }
 
@@ -1406,6 +1399,11 @@ iframe#About_Page {
     .h_title_wrapper h1 {
         font-size: 40px;
         margin-top: 42px;
+    }
+
+    .miximg {
+        width: 90vw;
+        height: auto;
     }
 }
 

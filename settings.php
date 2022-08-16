@@ -27,6 +27,3 @@ switch ($i) {
         break;
 };
 ?>
-
-
-
