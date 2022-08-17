@@ -1397,6 +1397,9 @@ iframe#About_Page {
     bottom: -123px;
     position: absolute;
     }
+    .sp_option img {
+        max-width: 150px;
+    }
 }
 
 @media (max-width:401px) {
