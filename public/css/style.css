@@ -124,7 +124,7 @@ html {
     width: 288px;
     height: 243px;
     margin-top: -10px;
-    z-index: 99;
+    z-index: -99;
     position: absolute;
     transition: 0.5s cubic-bezier(0.03, 0.00, 0.14, 0.97);
     display: block;
@@ -418,6 +418,7 @@ a.mix:hover {
     padding-right: 10px;
     position: relative;
     float: left;
+    width: 100%;
 }
 
 .r_logo_box {
@@ -692,6 +693,8 @@ iframe#About_Page {
 @media (max-width:767px) {
     .tingle-modal-box {
         width: 91% !important;
+        margin-left: auto;
+    margin-right: auto;
     }
 }
 
@@ -980,13 +983,13 @@ iframe#About_Page {
         bottom: 0;
         position: absolute;
         top: auto;
-        margin-bottom: 38px;
+        
     }
 
     .h_sub_title_wrapper {
-        bottom: 0;
+        bottom: 11px;
         top: auto;
-        margin-bottom: 50px;
+        position: absolute;
     }
 }
 
@@ -1012,7 +1015,6 @@ iframe#About_Page {
 
     .h_title_wrapper {
         left: 7px;
-        margin-top: 333px;
         width: 100%;
     }
 
@@ -1197,6 +1199,7 @@ iframe#About_Page {
     max-width: 100%;
     padding-left: 8px;
     overflow: auto;
+    font-size: 1.3em;
 }
 
 .grid-row-wrapper {
@@ -1225,9 +1228,8 @@ iframe#About_Page {
     margin-left: 25px;
     z-index: 100000;
     display: inline-block;
-    top: 69vh;
     right: -98VW;
-    left: -;
+    bottom: 75px;
 }
 
 #mpib_content {
@@ -1250,22 +1252,14 @@ iframe#About_Page {
         left: 137px;
     }
 
-    #mplayer_info_box_wrapper {
-        font-size: 18px;
-        top: 70vh!important;
-    }
-}
-
-@media (max-width:767px) {
-    #mplayer_info_box_wrapper {
-        top: 75vh;
-    }
+    
 }
 
 @media (max-width:1023px) {
     #mplayer_info_box_wrapper {
-        top: 72vh;
         right: -100vw;
+    /*position: absolute;*/
+    height: 200px;
     }
 }
 
@@ -1287,6 +1281,10 @@ iframe#About_Page {
 }
 
 @media (max-width:539px) {
+.album_win .tingle-modal__close {
+    margin-top: 63px;
+    margin-left: 34px;
+}
 }
 
 @media (max-width:461px) {
@@ -1360,14 +1358,16 @@ iframe#About_Page {
         width: 100vw;
         left: 0;
         right: 0;
-        top: 20%;
+        /*top: 20%;*/
     }
 }
 
 @media (max-width:539px) {
     .h_title_wrapper {
         width: 100%;
-        margin-top: 341px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     }
 
     .h_play_button {
@@ -1389,9 +1389,11 @@ iframe#About_Page {
 
 @media (max-width:461px) {
     .h_play_button {
-        top: 42px;
-        width: 207px;
-        left: 53vw;
+        top: auto;
+    width: 207px;
+    left: 50%;
+    bottom: -156px;
+    position: absolute;
     }
 }
 
@@ -1404,6 +1406,13 @@ iframe#About_Page {
     .miximg {
         width: 90vw;
         height: auto;
+    }
+    .m_nav_menu {
+        font-size: 50px; 
+        line-height: 1.65em;
+    }
+    .album_win .tingle-modal__close {
+        margin-top: 61px;
     }
 }
 
