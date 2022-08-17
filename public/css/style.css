@@ -1417,6 +1417,11 @@ iframe#About_Page {
     }
 }
 
+@media (max-height:844px) and (max-width:397px){
+    .h_play_button {
+        bottom: -174px;     
+    }
+}
 
 
 
